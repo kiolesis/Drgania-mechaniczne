@@ -1,0 +1,37 @@
+TEMP FILE PROJECT!
+
+from turtle import *
+import os
+
+hideturtle()
+
+os.system("echo OBS loading...")
+os.system("pause")
+
+hideturtle()
+begin_fill()
+penup()
+right(180)
+forward(400)
+right(180)
+pendown()
+forward(800)
+penup()
+right(180)
+forward(800)
+right(180)
+showturtle()
+pendown()
+
+right(90)
+circle(80, extent = 180)
+right(180)
+circle(80, extent = -180)
+left(180)
+circle(80, extent = 180)
+right(180)
+circle(80, extent = -180)
+left(180)
+circle(80, extent = 180)
+
+os.system("pause")
